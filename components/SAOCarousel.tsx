@@ -2,12 +2,12 @@
 import React, { useState, useEffect } from 'react';
 
 const IMAGES = [
-  "/images/Matheus-indiano-spaceapps.png",
-  "/images/matheus-indiano.png",
-  "/images/matheus-indiano2.png",
-  "/images/Matheus-indiano-spaceapps.png",
-  "/images/matheus-indiano.png",
-  "/images/matheus-indiano2.png"
+  "images/Matheus-indiano-spaceapps.png",
+  "images/matheus-indiano.png",
+  "images/matheus-indiano2.png",
+  "images/Matheus-indiano-spaceapps.png",
+  "images/matheus-indiano.png",
+  "images/matheus-indiano2.png"
 ];
 
 const SAOCarousel: React.FC = () => {
