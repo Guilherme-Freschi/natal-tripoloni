@@ -38,7 +38,7 @@ const App: React.FC = () => {
     <div 
       className="min-h-screen relative flex flex-col items-center justify-start py-12 px-4 selection:bg-red-500 selection:text-white"
       style={{
-        backgroundImage: 'url("https://scontent.fmgf7-1.fna.fbcdn.net/v/t39.30808-6/493226719_996851665869504_244177887123770345_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGmquS8m186XtOPc1DKKpzMrTSncDgkCaatNKdwOCQJprDqSQ4mnVOxIQjunCGsAgsRhaCQPqCb_d3eqsvvqMPn&_nc_ohc=4PHZJriLTnoQ7kNvwFTNWAF&_nc_oc=AdkiohT8oamQ20sLsZa6UAi5L9a5oU3QOBtbjJGPWVdV-9Qj-IAt3k2KuDJvaZSBS6Sv1L-jQANM9S9YpY6rmK2Z&_nc_zt=23&_nc_ht=scontent.fmgf7-1.fna&_nc_gid=0LOsxZnAAvQg854K8vQSEg&oh=00_Aflz7LMSjc4eGLLwrSvAvzB-rgvJLhzumz5qg65u30pz9g&oe=694FAB5E")',
+        backgroundImage: 'url("https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
@@ -56,8 +56,8 @@ const App: React.FC = () => {
         preload="auto"
         crossOrigin="anonymous"
       >
-        <source src="\audio\ssstik.io_1766454304718.mp3" type="audio/mpeg" />
-        <source src="\audio\ssstik.io_1766454304718.mp3" type="audio/mpeg" />
+        <source src="audio\ssstik.io_1766454304718.mp3" type="audio/mpeg" />
+        <source src="audio\ssstik.io_1766454304718.mp3" type="audio/mpeg" />
         Seu navegador não suporta o elemento de áudio.
       </audio>
 
